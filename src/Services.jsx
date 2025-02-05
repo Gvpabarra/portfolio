@@ -4,12 +4,16 @@
 // Date: Feb 04, 2025
 
 import React from "react";
+import softwareDevImg from "../src/assets/software-dev.jpg";
+import technicalServicesImg from "../src/assets/technical-services.jpg";
+import creativeDesignImg from "../src/assets/creative-design.jpg";
+import techConsultingImg from "../src/assets/tech-consulting.jpg";
 
 const Services = () => {
   const serviceCategories = [
     {
       title: "Software & Web Development",
-      image: "/src/assets/software-dev.jpg",
+      image: softwareDevImg,
       services: [
         "Full-Stack Web Development – Creating responsive, dynamic websites and applications using HTML, CSS, JavaScript, React, and Node.js.",
         "Front-End Development – Building user-friendly interfaces with an emphasis on UI/UX design and accessibility.",
@@ -18,7 +22,7 @@ const Services = () => {
     },
     {
       title: "Software Solutions & Technical Services",
-      image: "/src/assets/technical-services.jpg",
+      image: technicalServicesImg,
       services: [
         "Custom Software Development – Developing tailored applications for businesses, startups, and individuals.",
         "Database Management – Designing and optimizing databases with SQL, MySQL, and Oracle for efficient data storage and retrieval.",
@@ -27,7 +31,7 @@ const Services = () => {
     },
     {
       title: "Creative & Visual Design",
-      image: "/src/assets/creative-design.jpg",
+      image: creativeDesignImg,
       services: [
         "UI/UX Design – Designing engaging and user-centric interfaces for web and mobile applications.",
         "Graphic Design & Layout – Creating stunning visuals, branding elements, and layouts using Adobe Photoshop, Illustrator, and Canva.",
@@ -36,7 +40,7 @@ const Services = () => {
     },
     {
       title: "IT & Tech Consulting",
-      image: "/src/assets/tech-consulting.jpg",
+      image: techConsultingImg,
       services: [
         "Tech Consultation – Providing guidance on software architecture, development workflows, and database management.",
         "Website Redesign & Optimization – Enhancing website performance, navigation, and aesthetics for a better user experience.",
